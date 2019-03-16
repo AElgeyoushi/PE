@@ -14,7 +14,6 @@ while i < 1000:
 	i += 3
 	
 complete = mul_of_5.union(mul_of_3)
-print(complete)
 
 while len(complete) != 0:
 	n = complete.pop()
