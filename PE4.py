@@ -11,8 +11,6 @@ def has_3digit_factors(n):
 
 n = 999999
 it = 0
-breakloops = False
-
 while n > 100000 and not has_3digit_factors(n):
 	it +=1
 	if it%100 == 0:
@@ -21,5 +19,4 @@ while n > 100000 and not has_3digit_factors(n):
 		n -= 110
 	else:
 		n -= 1100
-
 print(n)
